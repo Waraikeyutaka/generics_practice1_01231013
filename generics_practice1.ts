@@ -3,7 +3,7 @@
 function identity<T>(arg: T): T { // Tが色々な型に対応する総称型（ジェネリクス）
     return arg;
 }
-let result1 = identity<string>(""); // 関数に型と値を渡している。
+let result1 = identity<string>("藁池 豊"); // 関数に型と値を渡している。
 console.log(result1); // コンソールに結果を表示
 
 let result2 = identity(39); //型引数を指定しない場合も型を推論することができる。
